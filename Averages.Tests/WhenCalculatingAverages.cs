@@ -7,14 +7,14 @@ public class WhenCalculatingAverages
     public void AverageOfOneNumberIsItself()
     {
         string[] inputs = { "2" };
-        double average = AverageCalculator.ArithmenticMean(inputs);
+        double average = AverageCalculator.ArithmeticMean(inputs);
         Assert.AreEqual(2, average, 1E-14);
     }
 
     [TestMethod]
     public void AverageOfSeveralNumbersIsAsExpected() {
         string[] inputs = { "1", "2", "3" };
-        double average = AverageCalculator.ArithmenticMean(inputs);
+        double average = AverageCalculator.ArithmeticMean(inputs);
         Assert.AreEqual(2, average, 1E-14);
     }
 }

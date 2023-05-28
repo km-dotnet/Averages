@@ -2,8 +2,10 @@ namespace Averages;
 
 public static class AverageCalculator 
 {
-    public static double ArithmenticMean(string[] inputs) {
-        return 2.0;
+    public static double ArithmeticMean(string[] inputs)
+    {
+        var inputIntegers = inputs.Select(n => Int64.Parse(n));
+        return inputIntegers.Average();
     }
 
 }
