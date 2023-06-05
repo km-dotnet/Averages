@@ -1,6 +1,6 @@
 namespace Averages;
 
-public static class AverageCalculator 
+public static class AverageCalculator
 {
     public static double ArithmeticMean(string[] inputs)
     {
